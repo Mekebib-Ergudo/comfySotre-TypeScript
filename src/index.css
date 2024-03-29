@@ -48,7 +48,11 @@
 		--ring: 224.3 76.3% 48%;
 	}
 }
-
+@layer components {
+	.align-element {
+		@apply mx-auto max-w-6xl px-8;
+	}
+}
 @layer base {
 	* {
 		@apply border-border;
